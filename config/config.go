@@ -114,7 +114,7 @@ var baseConfig = Config{
 		MaxMemory:              0,
 		EvictionPolicy:         EvictAllKeysLFU,
 		EvictionRatio:          0.9,
-		KeysLimit:              200000000,
+		KeysLimit:              20000,
 		AOFFile:                "./dice-master.aof",
 		PersistenceEnabled:     true,
 		WriteAOFOnCleanup:      false,
